@@ -16,7 +16,7 @@ jobs:
           command: |
             ls -al
             echo '^^^That should look familiar^^^'
-       - run:
+      - run:
           name: Running in a Unique Container
           command: |
             node -v
